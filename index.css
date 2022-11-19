@@ -1,0 +1,81 @@
+body{
+    background-color: #ADE0DF;
+    font-family: 'VT323', monospace; 
+    color:#8551A8 ;
+    
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+.Entrace{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 100px;
+}
+h1 , h2{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+button{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    font-size: 75px;
+    
+    
+}
+#rock:active{
+    background-color: #8551A8;
+    opacity: 75%;
+}
+#paper:active{
+    background-color: #8551A8;
+
+    opacity: 75%;
+}
+#scissors:active{
+    background-color: #8551A8;
+
+    opacity: 75%;
+}
+
+ section{
+    margin-top: 25px;
+  text-align: center;
+    font-size: 80px ;
+}
+#rock{
+    background-color: #5463FF;
+    border: solid 2px black;
+    
+    
+}
+#paper{
+    background-color: #FFC300;
+    border: solid 2px black;
+   
+}
+#scissors{
+    background-color: #E31C1C;
+    border: solid 2px black;
+    transform: rotate(-90deg);
+}
